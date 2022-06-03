@@ -85,8 +85,7 @@ async function fetchRepo(username, reponame) {
 
   if (isOrg) {
     if (
-      !data.organization.repository ||
-      data.organization.repository.isPrivate
+      !data.organization.repository
     ) {
       throw new Error("Organization Repository Not found");
     }
