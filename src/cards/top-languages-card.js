@@ -245,7 +245,7 @@ const renderTopLanguages = (topLangs, options = {}) => {
     layout,
     custom_title,
     locale,
-    langs_count = DEFAULT_LANGS_COUNT,
+    langs_count = 10,
     border_radius,
     border_color,
   } = options;
